@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header__title {
+    text-align: center;
+}
+
+.square {
+    background-color: red;
+}
+
+#main__render {
+    display: grid;
+    border: black solid 8px;
+    width: 500px;
+    height: 500px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+#main__options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option__size {
+    position: relative;
+}
+
+.error {
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -20px;
+}
